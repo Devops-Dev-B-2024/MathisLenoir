@@ -1,1 +1,0 @@
-# Git du projet "DevOPS" Ynov de Mathis LENOIR.

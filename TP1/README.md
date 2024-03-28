@@ -20,4 +20,9 @@
 # Exercice 2
 
 Opérations effectué pour protéger la repository:
-> - 
+> - Création d'une ruleset pour limiter les actions fait sur la repository Master/main.
+> - Commenter le commit/push obligatoirement.
+> - Validation obligatoire.
+
+Tentative de cassage du git:
+> - Création 
