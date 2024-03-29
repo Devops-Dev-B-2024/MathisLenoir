@@ -19,15 +19,15 @@
 Le fichier HTML qui sera affiché avec le docker se trouve [ici](./html/index.html).
 
 ### Sans DockerFile
-> docker run -dit --name test -v /usr/local/apache2/htdocs/public_html:/html -p 80:80 httpd
+> docker run -dit --name test -v /usr/local/apache2/htdocs/:/html/index.html -p 80:80 httpd
 >
 > docker stop [id du docker, voir : docker ps]
 >
 > docker rm [La même id]
-### Sans DockerFile et sans -v
+### Sans DockerFile
 > docker run -dit --name test -p 80:80 httpd
 > 
-> docker cp ./html [id du docker, voir : docker ps]:/usr/local/apache2/htdocs/public_html
+> docker cp ./html/index.html [id du docker, voir : docker ps]:/usr/local/apache2/htdocs
 >
 > docker stop [La même id]
 >

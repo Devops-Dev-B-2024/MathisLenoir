@@ -41,3 +41,21 @@ Cette partis à pour but d'apprendre au nouvelle utilisateur de git les bases d'
 ### Partie 2
 
 Cette partis à pour but d'apprendre au nouvelle utilisateur de git comment se déplacer dans la branche.
+
+### Partie 3
+
+Cette partis à pour but de nous apprendre à appliquer des changements sur certaines branches en fonction de commits existants.
+
+### Partie 4
+
+Dans cette partis, nous pouvoir voir une série d'astuce pour nous simplifier la vie lors de notre utilisation de git (git rebase, git tag, git describe)
+
+### Partie 5
+
+Dans cette partis, nous allons voir comment réorganisé de manière général nos branches, ou s'y déplacer facilement ou créer une branche sur un commit spécifique.
+
+### Partie 6
+
+Le remote à pour but de permettre le partage de son code, et de pouvoir travailler avec plusieurs personnes. (git clone, git fetch, ...)
+
+### Partie 7
