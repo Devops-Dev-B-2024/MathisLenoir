@@ -57,3 +57,9 @@ Le DockerFile est présent PHPMyAdmin [ici](./TP2/phpmyadmin/Dockerfile).
 #### A quoi sert Docker-Compose ?
 
 > Docker-Compose permet est outil ayant pour but de gérer plusieurs container à la fois, cela permet un déploiement plus efficace, et plus stable.
+
+#### Quel est la commande pour lancer un Docker-Compose ?
+
+> $ docker-compose -f .\docker-compose.yaml up
+
+Le fichier docker-compose est présent [ici](./TP2/docker-compose.yaml).

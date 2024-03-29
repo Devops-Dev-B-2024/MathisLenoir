@@ -1,6 +1,6 @@
 FROM phpmyadmin/phpmyadmin
 
-ENV PMA_HOST=172.17.0.3
+ENV PMA_HOST=mysql
 ENV PMA_PORT=3306
 ENV MYSQL_ROOT_PASSWORD=root
 
