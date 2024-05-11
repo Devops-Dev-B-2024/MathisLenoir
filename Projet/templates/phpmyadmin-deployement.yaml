@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{ .Release.Name }}-phpmyadmin"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: phpmyadmin
+  template:
+    metadata:
+      labels:
+        app: phpmyadmin
+    spec:
+      containers:
+        - name: phpmyadmin
+          image: {{ .Values.phpMyAdmin.image }}
+          ports:
+            - containerPort: {{ .Values.phpMyAdmin.port }}
+          env:
+            - name: PMA_ARBITRARY
+              value: "1"
