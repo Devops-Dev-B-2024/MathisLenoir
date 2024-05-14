@@ -1,0 +1,12 @@
+mysql:
+  image: mysql:latest
+  mysqlRootPassword: password
+  mysqlDatabase: my_database
+phpApache:
+  image: php:apache
+  port: 80
+phpMyAdmin:
+  image: phpmyadmin/phpmyadmin
+  port: 8080
+initContainer:
+  folderPath: "/wordpress"
